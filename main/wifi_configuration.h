@@ -16,17 +16,28 @@
 #define WIFI_SSID "MERCURY_4548"
 #define WIFI_PASS "a2572135"
 
-
-
 static struct {
     const char *ssid;
     const char *password;
 } wifi_list[] __attribute__((unused)) = {
     {.ssid = "OTA", .password = "12345678"},
     {.ssid = "DAP", .password = "12345678"},
+    {.ssid = "MERCURY_4548", .password = "a2572135"},
     // Add your WAP like this:
     // {.ssid = "your ssid", .password = "your password"},
 };
+
+
+
+// static struct {
+//     const char *ssid;
+//     const char *password;
+// } wifi_list[] __attribute__((unused)) = {
+//     {.ssid = "OTA", .password = "12345678"},
+//     {.ssid = "DAP", .password = "12345678"},
+//     // Add your WAP like this:
+//     // {.ssid = "your ssid", .password = "your password"},
+// };
 
 #define WIFI_LIST_SIZE (sizeof(wifi_list) / sizeof(wifi_list[0]))
 
