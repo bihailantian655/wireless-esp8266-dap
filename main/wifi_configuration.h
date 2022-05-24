@@ -10,11 +10,11 @@
 #ifndef __WIFI_CONFIGURATION__
 #define __WIFI_CONFIGURATION__
 
-#define WIFI_SSID "DAP"
-#define WIFI_PASS "12345678"
+// #define WIFI_SSID "DAP"
+// #define WIFI_PASS "12345678"
 
-// #define WIFI_SSID "MERCURY_4548"
-// #define WIFI_PASS "a2572135"
+#define WIFI_SSID "MERCURY_4548"
+#define WIFI_PASS "a2572135"
 
 
 
