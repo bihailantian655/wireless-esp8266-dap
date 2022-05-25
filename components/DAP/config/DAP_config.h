@@ -186,11 +186,20 @@ __STATIC_INLINE uint8_t DAP_GetVendorString(char *str)
  * @param str Pointer to buffer to store the string.
  * @return String length.
  */
+// __STATIC_INLINE uint8_t DAP_GetProductString(char *str)
+// {
+//   //(void)str;
+//   strcpy(str, "CMSIS-DAP v2");
+//   return (sizeof("CMSIS-DAP v2"));
+// }
+
+
+
 __STATIC_INLINE uint8_t DAP_GetProductString(char *str)
 {
   //(void)str;
-  strcpy(str, "CMSIS-DAP v2");
-  return (sizeof("CMSIS-DAP v2"));
+  strcpy(str, "esp8266 CMSIS-DAP");
+  return (sizeof("esp8266 CMSIS-DAP"));
 }
 
 /**
