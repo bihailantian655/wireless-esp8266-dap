@@ -198,8 +198,8 @@ __STATIC_INLINE uint8_t DAP_GetVendorString(char *str)
 __STATIC_INLINE uint8_t DAP_GetProductString(char *str)
 {
   //(void)str;
-  strcpy(str, "esp8266 CMSIS-DAP");
-  return (sizeof("esp8266 CMSIS-DAP"));
+  strcpy(str, "CMSIS-DAP");
+  return (sizeof("CMSIS-DAP"));
 }
 
 /**
